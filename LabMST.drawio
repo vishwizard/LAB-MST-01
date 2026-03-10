@@ -1,25 +1,25 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="n_XkGyOcSV3j6BD54qM3">
-    <mxGraphModel dx="2587" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3455" dy="1565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Design an Instagram like social media system" vertex="1">
-          <mxGeometry height="60" width="370" x="80" y="250" as="geometry" />
+        <mxCell id="pQRZkbDEzMrFR3s9crdf-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Insta Like System&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;User Login Service&lt;/div&gt;&lt;div&gt;Content&lt;/div&gt;&lt;div&gt;feed&lt;/div&gt;&lt;div&gt;follower&lt;/div&gt;&lt;div&gt;user engagement&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Moderator service&lt;/div&gt;&lt;div&gt;Cache generated feeds&lt;/div&gt;&lt;div&gt;Backfill service&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;FR&lt;/div&gt;&lt;div&gt;NFR&lt;/div&gt;&lt;div&gt;API D&lt;/div&gt;&lt;div&gt;DB D&lt;/div&gt;&lt;div&gt;HLD&lt;/div&gt;&lt;div&gt;Description&lt;/div&gt;" vertex="1">
+          <mxGeometry height="290" width="370" x="80" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;" value="Functional Requirements" vertex="1">
+        <mxCell id="pQRZkbDEzMrFR3s9crdf-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Functional Requirements" vertex="1">
           <mxGeometry height="60" width="300" x="80" y="340" as="geometry" />
         </mxCell>
         <mxCell id="pQRZkbDEzMrFR3s9crdf-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="1. User should be able to login/register&lt;div&gt;2. User should be able to make and see posts&lt;/div&gt;&lt;div&gt;3. Feed should be generated dynamically&lt;/div&gt;&lt;div&gt;4. Users should be able to follow each other&lt;/div&gt;&lt;div&gt;5. Users should be able to engage with other user&#39;s content by means of likes and comments&lt;/div&gt;&lt;div&gt;6. Platform should support content moderation&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="300" x="80" y="420" as="geometry" />
         </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;" value="Non - Functional Requirements" vertex="1">
-          <mxGeometry height="60" width="310" x="80" y="590" as="geometry" />
+        <mxCell id="pQRZkbDEzMrFR3s9crdf-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Non - Functional Requirements" vertex="1">
+          <mxGeometry height="60" width="300" x="80" y="590" as="geometry" />
         </mxCell>
         <mxCell id="pQRZkbDEzMrFR3s9crdf-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="1. The system should be secure&lt;div&gt;2. The overall latency of the system should be under 200ms&lt;/div&gt;&lt;div&gt;3. The system&#39;s availability should be 99%&lt;/div&gt;&lt;div&gt;4. The system should be scalable for 1M daily active users&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="300" x="80" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;" value="API Design" vertex="1">
+        <mxCell id="pQRZkbDEzMrFR3s9crdf-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API Design" vertex="1">
           <mxGeometry height="60" width="300" x="80" y="840" as="geometry" />
         </mxCell>
         <mxCell id="pQRZkbDEzMrFR3s9crdf-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;User APIs&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;1. /users/login&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Request Type : POST&lt;/div&gt;&lt;div&gt;Request Payload : {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;username:S&lt;/span&gt;tring,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;password:String&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Response Payload : {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;token:String&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Description: Accepts username and password and issues a JWT if user is verified.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Status Codes:&lt;br&gt;200: Success (in case of login)&lt;/div&gt;&lt;div&gt;400: Bad Request (in case of missing credentials)&lt;/div&gt;&lt;div&gt;401: Unauthorized (in case of wrong credentails)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;2. /users/register&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Request Type: POST&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Request Payload : {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;username:S&lt;/span&gt;tring,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;password:String&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Response Payload : {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;token:String&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Description: Accepts username and password and issues a JWT upon successful user registration. This JWT can be used to bypass the need to login after registration&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Status Codes:&lt;br&gt;201: Created (in case of successful registration)&lt;/div&gt;&lt;div&gt;400: Bad Request (in case of missing credentials)&lt;/div&gt;&lt;/div&gt;" vertex="1">
@@ -31,7 +31,7 @@
         <mxCell id="pQRZkbDEzMrFR3s9crdf-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Miscellaneous APIs&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;1. /follow&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Request Type : POST&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Request Payload : {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;u&lt;/span&gt;sername:String,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Response Payload : {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;empty&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Description: The current user(found by decrypting jwt) follows the user with the username specified. If already followed, it should unfollow.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Status Codes:&lt;br&gt;200: Success (On successful follow/unfollow)&lt;/div&gt;&lt;div&gt;400: Bad Request (If the request is malformed)&lt;/div&gt;&lt;div&gt;404: Not Found (in case of wrong username)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;2. /feed&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Request Type : GET&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Request Payload : {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;e&lt;/span&gt;mpty&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Response Payload : {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Posts: Array&amp;lt;Objects (Post Schema)&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Description: Returns the dynamic feed for the user&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Status Codes:&lt;br&gt;200: Success (Feed Fetched Successfully)&lt;/div&gt;&lt;div&gt;404: Not Found (If feed is not available)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="640" width="330" x="-660" y="920" as="geometry" />
         </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;" value="DB Design" vertex="1">
+        <mxCell id="pQRZkbDEzMrFR3s9crdf-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DB Design" vertex="1">
           <mxGeometry height="60" width="300" x="115" y="2230" as="geometry" />
         </mxCell>
         <mxCell id="pQRZkbDEzMrFR3s9crdf-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;User Schema&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;username: String,&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;password: String (hashed string)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
@@ -43,8 +43,8 @@
         <mxCell id="pQRZkbDEzMrFR3s9crdf-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Comment Schema&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;comment_id : String&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;description : String&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;likes : Number&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;comments : Object (Comment Schema)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;username: String&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;post_id:String&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="170" width="300" x="380" y="2320" as="geometry" />
         </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;" value="HLD" vertex="1">
-          <mxGeometry height="60" width="300" x="30" y="2780" as="geometry" />
+        <mxCell id="pQRZkbDEzMrFR3s9crdf-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HLD" vertex="1">
+          <mxGeometry height="60" width="300" x="30" y="2610" as="geometry" />
         </mxCell>
         <mxCell id="pQRZkbDEzMrFR3s9crdf-24" edge="1" parent="1" source="pQRZkbDEzMrFR3s9crdf-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;">
           <mxGeometry relative="1" as="geometry">
@@ -87,15 +87,6 @@
               <mxPoint x="-70" y="4350" />
             </Array>
             <mxPoint x="-70" y="4360.000000000001" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-89" edge="1" parent="1" source="pQRZkbDEzMrFR3s9crdf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.04;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;" target="pQRZkbDEzMrFR3s9crdf-88">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-220" y="3356" />
-              <mxPoint x="-220" y="4722" />
-            </Array>
-            <mxPoint x="-210" y="4120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pQRZkbDEzMrFR3s9crdf-22" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" value="" vertex="1">
@@ -204,8 +195,10 @@
             <mxPoint x="960" y="3170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-83" edge="1" parent="1" source="pQRZkbDEzMrFR3s9crdf-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pQRZkbDEzMrFR3s9crdf-81">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="pQRZkbDEzMrFR3s9crdf-68" edge="1" parent="1" source="pQRZkbDEzMrFR3s9crdf-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="3950" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pQRZkbDEzMrFR3s9crdf-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="POST CONSUMER" vertex="1">
           <mxGeometry height="60" width="120" x="920" y="3288" as="geometry" />
@@ -220,7 +213,7 @@
           <mxGeometry height="41.4" width="52.5" x="987.5" y="3960" as="geometry" />
         </mxCell>
         <mxCell id="pQRZkbDEzMrFR3s9crdf-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Feed Cache" vertex="1">
-          <mxGeometry height="30" width="60" x="983.75" y="3920" as="geometry" />
+          <mxGeometry height="30" width="60" x="1050" y="3960" as="geometry" />
         </mxCell>
         <mxCell id="pQRZkbDEzMrFR3s9crdf-73" edge="1" parent="1" source="pQRZkbDEzMrFR3s9crdf-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pQRZkbDEzMrFR3s9crdf-64">
           <mxGeometry relative="1" as="geometry">
@@ -247,40 +240,8 @@
         <mxCell id="pQRZkbDEzMrFR3s9crdf-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Feed Service" vertex="1">
           <mxGeometry height="30" width="60" x="-20" y="4430" as="geometry" />
         </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-84" edge="1" parent="1" source="pQRZkbDEzMrFR3s9crdf-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="pQRZkbDEzMrFR3s9crdf-82">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="pQRZkbDEzMrFR3s9crdf-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="&lt;b&gt;FANOUT PUSH&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="930" y="3610" as="geometry" />
-        </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-87" edge="1" parent="1" source="pQRZkbDEzMrFR3s9crdf-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1050" y="3990" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-82" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="&lt;b&gt;Backfill Service&lt;/b&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="1320" y="3960" as="geometry" />
-        </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-88" parent="1" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#e51400;strokeColor=#B20000;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.people_places_things_icons.icon2;fontColor=#ffffff;" value="" vertex="1">
-          <mxGeometry height="91" width="135" x="-45" y="4670" as="geometry" />
-        </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-90" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Follower Service" vertex="1">
-          <mxGeometry height="30" width="60" x="-30" y="4790" as="geometry" />
-        </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-91" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.gdb_graph_database;" value="" vertex="1">
-          <mxGeometry height="121" width="140.15" x="830" y="4640" as="geometry" />
-        </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-92" edge="1" parent="1" source="pQRZkbDEzMrFR3s9crdf-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.065;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;" target="pQRZkbDEzMrFR3s9crdf-91">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Graph DB" vertex="1">
-          <mxGeometry height="30" width="60" x="870.07" y="4780" as="geometry" />
-        </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-95" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Routing&lt;div&gt;Authentication&lt;/div&gt;&lt;div&gt;Authorization&lt;/div&gt;&lt;div&gt;Rate Limiting&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="110" x="-215" y="3290" as="geometry" />
-        </mxCell>
-        <mxCell id="pQRZkbDEzMrFR3s9crdf-96" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Blocks posts with explicit content" vertex="1">
-          <mxGeometry height="30" width="100" x="260" y="3380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
